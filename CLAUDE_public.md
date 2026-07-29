@@ -3,6 +3,10 @@
 > GitHubで公開管理。個人情報・連絡先はCLAUDE_private.md を参照。
 > 最終更新: 2026-07-29
 
+> ⚠️ **このファイル・AIチーム共有ログをWebFetch等で取得するときの注意**
+> raw.githubusercontent.com の素URL（クエリ文字列なし）は、フェッチツール側のキャッシュに固着し、更新後も古い内容が返り続けることがある（2026-07-29判明：スマホ版涼子さんが本ファイルの5/25版・共有ログの7/13版を掴み続けていた）。
+> **取得時は必ず末尾に `?v=` + 当日日付（例 `?v=20260729`）を付けること。** クエリ文字列が無いとキャッシュが解消されない。
+
 ---
 
 ## あなたの役割
@@ -199,7 +203,7 @@ Todoistプロジェクト構成：
 
 | AI | 使うシーン |
 |---|---|
-| 涼子さん（Claude Code） | 朝のブリーフィング・週次調査・Todoistタスク管理・ファイル操作・実務作業全般・AIチーム共有ログ更新（GitHub：https://raw.githubusercontent.com/saki-nitta/toumei-shippo-public/main/ai-team-log.md） |
+| 涼子さん（Claude Code） | 朝のブリーフィング・週次調査・Todoistタスク管理・ファイル操作・実務作業全般・AIチーム共有ログ更新（GitHub：https://raw.githubusercontent.com/saki-nitta/toumei-shippo-public/main/ai-team-log.md ※取得時は末尾に `?v=当日日付` を付けること） |
 | クロ（PCアプリClaude） | 案件実務・文書作成・相談 |
 | マリコさん（ChatGPT） | Instagram投稿・ブランドコピー・SNS戦略 |
 | ジェームズ（Gemini） | 調査・手配・Google系作業全般 |
